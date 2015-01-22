@@ -1,0 +1,4 @@
+# CSharpExample
+
+A coding excercise.
+
