@@ -24,7 +24,7 @@ namespace ExampleApp
 		}
 
 		public IEnumerable<long> FactorsOf(long number) {
-			ExtendTo((number/2) + 1); // Make sure all possible divisors are present.
+			ExtendTo(number); // Make sure all possible divisors are present.
 			foreach (var p in this) {
 				if (number % p == 0) {
 					yield return p;
